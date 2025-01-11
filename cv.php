@@ -50,4 +50,5 @@ $mpdf->WriteHTML($html,\Mpdf\HTMLParserMode::HTML_BODY);
 
 // Output a PDF file directly to the browser
 $mpdf->Output();
+#$mpdf->Output('cv.pdf','d');
 ?>
